@@ -6,7 +6,7 @@ apps_sunshine::apply() {
   sudo setcap cap_sys_admin+p $(readlink -f $(which sunshine))
 
   ensure_service_start_user app-dev.lizardbyte.app.Sunshine
-  ensure_service_Start_user app-dev.lizardbyte.app.Sunshine
+  ensure_service_start_user app-dev.lizardbyte.app.Sunshine
 }
 
 apps_sunshine::rollback() {

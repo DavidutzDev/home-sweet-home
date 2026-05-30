@@ -89,6 +89,8 @@ rollback)
   ;;
 esac
 
+SECONDS=0
+
 source modules/core.sh
 source "$TARGET"
 
@@ -96,5 +98,7 @@ case "$ACTION" in
 apply) apply_modules ;;
 rollback) rollback_modules ;;
 esac
+
+log_success "$(printf 'Done in %dm %ds' $((SECONDS / 60)) $((SECONDS % 60)))"
 
 prompt_reboot_if_recommended
