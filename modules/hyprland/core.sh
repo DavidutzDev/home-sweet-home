@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-MODULE_REQUIRES=("hyprland/polkit" "hyprland/waybar" "hyprland/hyprlock" "hyprland/xdg-portal" "hyprland/wallpaper" "hyprland/walker" "hyprland/swaync" "hyprland/screenshot")
+MODULE_REQUIRES=("hyprland/polkit" "hyprland/waybar" "hyprland/hyprlock" "hyprland/xdg-portal" "hyprland/wallpaper" "hyprland/walker" "hyprland/swaync" "hyprland/screenshot" "hyprland/clipboard")
 
 hyprland_core::apply() {
   ensure_pacman "hyprland"

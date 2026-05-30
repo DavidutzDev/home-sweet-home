@@ -12,6 +12,7 @@ source lib/colors.sh
 source lib/logging.sh
 source lib/utils.sh
 source lib/packages.sh
+source lib/services.sh
 source lib/dotfiles.sh
 source lib/modules.sh
 

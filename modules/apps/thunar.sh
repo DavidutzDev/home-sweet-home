@@ -4,6 +4,7 @@ MODULE_REQUIRES=("misc/ouch")
 
 apps_thunar::apply() {
   ensure_pacman "thunar"
+  ensure_pacman "tumbler"
   ensure_pacman "gvfs"
   ensure_pacman "gvfs-mtp"
   ensure_pacman "ntfs-3g"
