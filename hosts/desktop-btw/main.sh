@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+DOTFILES_REPO="git@github.com:DavidutzDev/dotfiles-test"
+DOTFILES_DIR="$HOME/dotfiles"
+DOTFILES_BRANCH="main"
+
+ensure_home_dirs
+
+ensure_dotfiles_repo
+ensure_flatpak_available
+
+require "hyprland/core"
+require "fonts/jetbrains-nerd-mono"
+require "themes/catppuccin"
+require "misc/qt"
+
+require "apps/terminals/ghostty"
+require "apps/editors/neovim"
+
+require "apps/thunar"
+require "apps/spotify"
+require "apps/vesktop"
+require "apps/zen-browser"
+require "apps/localsend"
+require "apps/sunshine"
+
+require "apps/peripherals/piper"
+
+require "apps/editors/intellij"
+
+require "misc/docker"
+
+require "apps/ai/opencode"
+require "apps/ai/claude"
+require "apps/ai/gemini"
+
+require "apps/gaming/steam"
+require "apps/gaming/roblox"
