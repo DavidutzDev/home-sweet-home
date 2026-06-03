@@ -17,6 +17,9 @@ require "misc/qt"
 require "apps/terminals/ghostty"
 require "apps/editors/neovim"
 
+require "shells/fish"
+require "shells/tools/tmux"
+
 require "apps/thunar"
 require "apps/evince"
 require "apps/pinta"
@@ -39,3 +42,5 @@ require "apps/ai/gemini"
 
 require "apps/gaming/steam"
 require "apps/gaming/roblox"
+
+stow_package "bin"
