@@ -19,6 +19,7 @@ require "apps/editors/neovim"
 
 require "shells/fish"
 require "shells/tools/tmux"
+require "shells/tools/devops"
 
 require "apps/thunar"
 require "apps/evince"
@@ -35,6 +36,7 @@ require "apps/peripherals/piper"
 require "apps/editors/intellij"
 
 require "misc/docker"
+require "misc/tailscale"
 
 require "apps/ai/opencode"
 require "apps/ai/claude"
