@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DOTFILES_REPO="git@github.com:DavidutzDev/dotfiles-test"
+DOTFILES_REPO="git@github.com:DavidutzDev/dotfiles"
 DOTFILES_DIR="$HOME/dotfiles"
 DOTFILES_BRANCH="main"
 
