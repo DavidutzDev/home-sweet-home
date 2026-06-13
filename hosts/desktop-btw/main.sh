@@ -41,9 +41,11 @@ require "misc/tailscale"
 
 require "apps/ai/opencode"
 require "apps/ai/claude"
-require "apps/ai/gemini"
+require "apps/ai/antigravity"
 
+require "apps/gaming/cachyos"
 require "apps/gaming/steam"
+require "apps/gaming/prismlauncher"
 require "apps/gaming/roblox"
 
 stow_package "bin"
